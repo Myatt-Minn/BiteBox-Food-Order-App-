@@ -251,7 +251,7 @@ class _FoodCardPageState extends State<Cartscreen> {
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  "${calculateTotalPrice()} MMK",
+                  "\$${calculateTotalPrice()}",
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -322,7 +322,7 @@ class _FoodCardPageState extends State<Cartscreen> {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    '${item.food.price} × ${item.quantity} = ${item.totalPrice} MMK',
+                    '${item.food.price} × ${item.quantity} = \$${item.totalPrice}',
                     style: const TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,

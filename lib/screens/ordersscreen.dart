@@ -75,7 +75,7 @@ class _OrderListScreenState extends State<OrderListScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Total Price: ${totalPrice.toStringAsFixed(0)} MMK',
+              'Total Price: \$${totalPrice.toStringAsFixed(0)}',
               style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
